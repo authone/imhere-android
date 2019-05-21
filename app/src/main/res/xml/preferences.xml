@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:defaultValue="georgeg"
+        android:key="pref_key_edit_text_id"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="My ID in the system" />
+    <EditTextPreference
+        android:defaultValue="George Gugulea"
+        android:key="pref_key_edit_text_name"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="My Name" />
+    <EditTextPreference
+        android:defaultValue="O24"
+        android:key="pref_key_edit_text_room"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="My Room number" />
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="pref_key_check_box_ismoke"
+        android:title="I Smoke" />
+    <EditTextPreference
+        android:defaultValue="http://192.168.33.11:3001/"
+        android:key="pref_key_edit_text_serverurl"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Server URI" />
+</PreferenceScreen>
